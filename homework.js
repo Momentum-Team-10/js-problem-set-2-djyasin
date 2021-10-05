@@ -37,7 +37,15 @@ return sum(array) / array.length
 }
 // 5. Create a function called "minimum" that takes an array of numbers and
 // returns the smallest number in that array.
-
+function minimum (array) {
+    let min = array[0]
+    for (let num of array) {
+ if (num < min) {
+   min = num
+ }
+    }
+    return min 
+}
 // 6. There are many techniques to sort arrays in programming. Your programming
 // language will likely include the ability to do this. We are going to
 // implement sorting ourselves, however.
