@@ -6,10 +6,10 @@
 // If the potential member is not in the array, return the array unchanged.
 // If the poten(tial member is in the array, remove all instances of it from the array.
 
-let students = [Cadence', 'Ordel', 'Marion']
-function remove {
-   return (students) === (['Cadence', 'Ordel', 'Marion'], 'Marion')
-}
+const students =  ['Cadence', 'Ordel', 'Marion']
+]
+/* We have defined our array. Now we need to spilce it  so that if a member is NOT part of our established array, the array is unchanged. 
+If they ARE we want them removed from the arry.*/
 
 // 2. Revisit your "remove" function. Make sure that it does not change the original
 // array but instead returns a new array.
