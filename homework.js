@@ -69,6 +69,12 @@ function minimum (array) {
 // Note 2: Selection sort can be implemented using one array. Read the explanation at
 // https://courses.cs.vt.edu/csonline/Algorithms/Lessons/SelectionSort/index.html
 // to see how. This may make more sense to you.
+function selectionSort (arr) {
+    let sortedArray = []
+    let arrCopy = [...array]
+sortedArray.push(minimum(arrCopy))
+arrCopy.splice()
+}
 
 // 7. Create a function called `textList` that takes an array and joins its elements
 // into a string separated by commas.
